@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h2 {
+  text-align: center;
+  margin: 2rem;
+}
+
+.container1 {
+  background: url(../img/rain.jpg) no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 300px;
+  margin: 2rem;
+}
+
+.text1 {
+  position: absolute;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.808);
+  border: 2px #ff3527 solid;
+  text-transform: uppercase;
+  font-weight: 1000;
+  font-size: 2.5rem;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  padding: 0.5rem 1rem;
+  mix-blend-mode: multiply;
+}
+
+.container2 {
+  height: 300px;
+  background: url(../img/skate.jpg), url(../img/brush.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: screen;
+  margin: 2rem;
+}
