@@ -9,6 +9,10 @@ h2 {
   margin: 2rem;
 }
 
+img {
+  width: 100%;
+}
+
 .container1 {
   background: url(../img/rain.jpg) no-repeat;
   background-size: cover;
@@ -33,12 +37,17 @@ h2 {
   mix-blend-mode: multiply;
 }
 
-.container2 {
-  height: 300px;
+.box2 {
+  height: 400px;
   background: url(../img/skate.jpg), url(../img/brush.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   background-blend-mode: screen;
-  margin: 2rem;
+}
+
+@media (min-width: 800px) {
+  .box2 {
+    background-size: 70%;
+  }
 }
